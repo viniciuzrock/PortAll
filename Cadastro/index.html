@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal - Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/589b111bdf.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Cadastro
+        </h1>
+    </header>
+    <main>
+        <form id="form"> 
+            <section class="input-container">
+                <!-- <label for="">Nome Completo</label> -->
+                <input type="text" placeholder="Seu Nome">
+                <!-- <label>E-mail de usuário</label> -->
+                <input type="email" placeholder="exemplo@gmail.com" id="input2">
+                <div class="password-container">
+                    <!-- <label>Senha de acesso</label> -->
+                    <input type="password" id="field-password" class="field-password" placeholder="Informe sua senha">
+                    <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+                <div class="password-container">
+                    <!-- <label>Confirme a senha</label> -->
+                    <input type="password" id="field-password2" class="field-password" placeholder="Confirme sua senha">
+                    <i class="fas fa-eye" id="eye2" onclick="showPassword2()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash2" onclick="showPassword2()"></i>
+                </div>
+            </section>
+            <button id="btn-login" onclick="confirm()">Cadastrar</button>
+            <footer>
+                <hr>
+                <span>Já possui uma conta? <a href="../Login/index.html">Entre</a></span>
+            </footer>
+        </form>
+    </main>
+
+</body>
+</html>

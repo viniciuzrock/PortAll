@@ -1,0 +1,157 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+/* HEADER */
+header{
+    min-width: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383c42;
+}
+header h1{
+    font-size: 2.0em;
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+/* MAIN */
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./fundo1.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form{
+    margin-top: 6%;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(50, 60, 66, 0.8);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form .input-container{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .input-container input{
+    width: 95%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #312e42;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form .input-container #input2{
+    margin-top: 3%;
+}
+
+main form .input-container input:focus{
+    box-shadow: inset 2px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+main form .password-container{
+    margin-top: 3%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .password-container i{
+    position: absolute;
+    right: 8%;
+    top: 35%;
+    color: #777;
+    cursor: pointer;
+}
+
+main form .password-container #eye{
+    display: none;
+}
+
+main form button{
+    background-color: #18acfe;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin: 10%;
+    margin-top: 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding-bottom: 6px;
+}
+
+main form button:hover{
+    background-color: #fff;
+    color: #18acfe;
+}
+
+main form footer{
+    width: 100%;
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form footer hr{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+main form footer span{
+    font-weight: 200;
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+
+main form footer a{
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+main form footer a:hover{
+    color: #18acfe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

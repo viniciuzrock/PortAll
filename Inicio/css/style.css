@@ -1,0 +1,225 @@
+:root{
+    --white: #fafafa;
+    --blue: #00348a;
+    --blue-white: #18acfe;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* HEADER */
+header{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, .5);
+    background: var(--blue);
+}
+header h1{
+    color: var(--white);
+    font-size: 2.0rem;
+    font-weight: 300;
+}
+/* CAMPO GERAL */
+.container-full{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+/* CAMPO DA ESQUERDA */
+.container-left{
+    /* background: var(--blue); */
+    width: 15%;
+    height: 95vh;
+    margin: 0px;
+    border-color: black;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+}
+/* ICONES DA ESQUERDA */
+.container-left i{
+    margin: 5%;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* TEXTOS DA ESQUERDA */
+.container-left label{
+    font-weight: 500;
+}
+/* ICONE DOS BOTOES */
+.icon{
+    float: left;
+    margin-right: 4%;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 15%;
+    text-align: center;
+}
+/* DIV DAS LABEL */
+.label-txt{
+    float: left;
+    margin: 22px 5px;
+}
+/* FORMATO DA LISTA */
+.alt{
+    height: 4rem;
+    list-style-type: none;
+}
+.alt:hover{
+    color: var(--white);
+    background-color: var(--blue-white);
+}
+/* DIV DO USUARIO */
+.container-user{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    background-color: #c0c0c0;
+    border-bottom: solid 1px;
+}
+/* DIV DO USUARIO - HOVER*/
+.container-user:hover{
+    background-color: #18acfe;
+}
+/* DIV DO USUARIO - ICONE */
+.container-user i#user{
+    margin: 5%;
+    margin-left: 6.5%;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* CAMPO DOS BOTÕES */
+.container-btn{
+    background-color: white;
+}
+/* BOTÕES */
+.container-btn li{
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px; */
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+/* CAMPO DIREITO */
+.container-right{
+    background-color: #fafafa;  
+    width: 90%;
+    height: 95vh;
+    
+    background-size: cover
+}
+/* CAMPO DIREITO - MENO */
+/* .container-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+ul.container-menu{
+    width: 1060px;
+    margin: 0 auto;
+    /* margin: 2% 2% 20% 8%;  idel*/
+    padding: 60px;
+    overflow: hidden;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.container-menu li{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border:  5px solid #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    border-radius: 8px;
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+ul.container-menu li:hover{
+    transform: scale(1.4);
+    transition: all 0.3s ease-in;
+    background-color: #fff;
+    /* position: static; */
+}
+
+ul.container-menu li label{
+    /* position: static; */
+    margin-top: 2px;
+    float: left;
+}
+
+ul.container-menu li span{
+    opacity: 0;
+    color: black;
+    /* color: #ffffff; */
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .4); */
+    /* background-color: rgba(0, 0, 0, .9); */
+    background-color: white;
+    font-size: 10px;
+    line-height: 370px;
+    padding: 5px;
+    margin-left: 0%;
+    margin-top: -10px;
+    width: 100%;
+    border-bottom-left-radius: 80px 80px; 
+    border-bottom-right-radius: 80px 80px;
+}
+
+ul.container-menu li:hover span{
+    opacity: 1;
+}
+
+.opt1{
+    background: url(../img/chamado-img.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /*300px 200px*/
+    background-color: #ffffff;
+    
+}
+.opt2{
+    background: url(../img/portais-img.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /*200px 200px */
+    background-color: #ffffff;
+}
+.opt3{
+    background: url(../img/cadastros-img.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /*300px 200px*/
+    background-color: #ffffff;
+}
+.opt4{
+    background: url(../img/campanhas-img.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /*300px 200px*/
+    background-color: #ffffff;
+}
+.opt5{
+    background: url(../img/informacoes-img.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /*320px 220px*/
+    background-color: #ffffff;
+}
+.opt6{
+    background: url(../img/ajuste-img.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; /*200px 200px*/
+    background-color: #ffffff;
+}
+
+.legenda{
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
